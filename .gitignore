@@ -1,0 +1,91 @@
+# Ignore local appSettings Dot net
+appsettings.Development.json
+appsettings.json
+app.db
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# Angular
+# Compiled output
+/Security/Security.Duende.Identity.Client.Angular/dist
+/Security/Security.Duende.Identity.Client.Angular/tmp
+/Security/Security.Duende.Identity.Client.Angular/out-tsc
+/Security/Security.Duende.Identity.Client.Angular/bazel-out
+
+/Security/Security.Cookie.Client.Angular/dist
+/Security/Security.Cookie.Client.Angular/tmp
+/Security/Security.Cookie.Client.Angular/out-tsc
+/Security/Security.Cookie.Client.Angular/bazel-out
+
+# Node
+/Security/Security.Duende.Identity.Client.Angular/node_modules
+/Security/Security.Cookie.Client.Angular/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/Security/Security.Duende.Identity.Client.Angular/.angular/cache
+/Security/Security.Cookie.Client.Angular/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
